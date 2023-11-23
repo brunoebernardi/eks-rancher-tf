@@ -5,11 +5,12 @@
 4. Set your AWS Keys in providers.tf file and ".aws/credentils" in your user home.
 
 # Execution
-1. terraform init ; terraform plan ; terraform apply
-2. You can change the type of Rancher Service to NodePort or ClusterIP
+1. Run on terminal: terraform init ; sleep 3 ; terraform plan ; terraform apply
+2. The cluster will be accessible as declared in "KUBE_CONFIG_PATH" and you can run kubectl commands.
+3. You can change the type of Rancher Service to NodePort or ClusterIP
   
 
 # Destroy
-1. terraform state rm helm_release.rancher_server
-2. terraform destroy -auto-approve
+1. Run on terminal: terraform state rm helm_release.rancher_server
+2. Run on terminal: terraform destroy -auto-approve
 ##### NOTE: For Network issues, before terraform deletes EKS cluster, if the internet gateway and subnets are not removed within 8 minutes, manually remove LB and SG ELB on AWS Console or AWS CLI.
