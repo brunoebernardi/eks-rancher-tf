@@ -13,7 +13,7 @@ This terraform project supports different types of EKS and Rancher versions and 
 
 2. In order for Terraform to run operations on your behalf, you must install and configure the AWS CLI tool. Please refer [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) for instructions.
 
-3. AWS IAM should be installed and configure to provide correct authentication on EKS cluster. Please refer [here] (https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)
+3. AWS IAM should be installed and configure to provide correct authentication on EKS cluster. Please refer [here](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)
 
 ## Getting Started
 
