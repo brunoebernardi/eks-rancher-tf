@@ -12,4 +12,4 @@
 # Destroy
 1. terraform state rm helm_release.rancher_server
 2. terraform destroy -auto-approve
-##### NOTE: For Network issues, before terraform deletes EKS cluster, if the internet gateway and subnets are not removed within 8 minutes, manually remove LB and SG ELB on AWS Console or AWS CLI
+##### NOTE: For Network issues, before terraform deletes EKS cluster, if the internet gateway and subnets are not removed within 8 minutes, manually remove LB and SG ELB on AWS Console or AWS CLI.
