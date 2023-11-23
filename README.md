@@ -16,7 +16,7 @@ This terraform project supports different types of EKS and Rancher versions and 
 
 4. Git should be installed on the local or remote computer which is used for cloning the repository as mentioned above. Please refer the git installation guide [here](https://github.com/git-guides/install-git).
    
-5. Kubectl should be installed on the local or remote computer which is used access and manipulation of a Kubernetes environment. Please refer [here](https://kubernetes.io/docs/tasks/tools/) for installation instructions.
+5. Kubectl should be installed on the local or remote computer which is used for access and manipulation of a Kubernetes environment. Please refer [here](https://kubernetes.io/docs/tasks/tools/) for installation instructions.
 
 
 
