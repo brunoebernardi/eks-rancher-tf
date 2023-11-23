@@ -1,0 +1,12 @@
+# Terraform directories and files
+**/.terraform/*
+**/terraform-provider*/*
+*.tfstate
+*.tfstate.*
+*.terraform*
+crash.log
+
+
+# Temporary files
+**/*.swp
+.DS_Store
