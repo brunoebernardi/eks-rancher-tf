@@ -1,4 +1,4 @@
-# Base repository for deploying Rancher on AWS & EKS using terraform
+# Base repository for deploying Rancher on AWS using terraform
 
 ## About The Project
 
