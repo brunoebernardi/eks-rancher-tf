@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This repository is based on EKS terraform templates and modules for deploying Rancher on AWS. The main objective is to provide a simple and fast way of deploying Rancher on AWS for troubleshooting and generating test environments to approximate customer environments and carry out simulations. Most of the codebase is using HCL(Hashicorp Configuration Language).
+This repository is based on EKS terraform templates and modules to deploy Rancher on AWS. The main objective is to provide a simple and fast way of deploying Rancher on AWS for troubleshooting and generating test environments to approximate customer environments and carry out simulations. Most of the codebase is using HCL(Hashicorp Configuration Language).
 
 This terraform project supports different types of EKS and Rancher versions and is highly customizable depending on your requirements. You can customize subnets, network rules, VM types, number of nodes, autoscalling and logs for the cluster. Please see the description for a better understanding.
 
@@ -12,7 +12,7 @@ This terraform project supports different types of EKS and Rancher versions and 
 
 2. In order for Terraform to run operations on your behalf, you must install and configure the AWS CLI tool. Please refer [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions) for installation instructions.
 
-3. AWS IAM should be installed and configure to provide correct authentication on EKS cluster. Please refer [here](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) for installation instructions.
+3. AWS IAM should be installed and configured to provide correct authentication on EKS cluster. Please refer [here](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) for installation instructions.
 
 4. Git should be installed on the local or remote computer which is used for cloning the repository as mentioned above. Please refer the git installation guide [here](https://github.com/git-guides/install-git).
    
