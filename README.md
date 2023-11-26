@@ -4,7 +4,6 @@
 
 This repository is based on EKS terraform templates and modules to deploy Rancher on AWS. The main objective is to provide a simple and fast way of deploying Rancher on AWS for troubleshooting and generating test environments to approximate customer environments and carry out simulations. Most of the codebase is using HCL(Hashicorp Configuration Language).
 
-This terraform project supports different types of EKS and Rancher versions and is highly customizable depending on your requirements. You can customize subnets, network rules, VM types, number of nodes, autoscalling and logs for the cluster. Please see the description for a better understanding.
 
 ## Prerequisites
    
