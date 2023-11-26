@@ -3,6 +3,9 @@
 2. Customize your preferences on "k8s-rancher.tf file" for your Rancher environment.
 3. Set kubeconfig path in variable kubeconfig_path on "terraform.tfvars file". After this, run export "KUBE_CONFIG_PATH=" to the destination.
 4. Set your AWS Keys in providers.tf file and ".aws/credentils" in your user home.
+##### NOTE: This terraform project supports different types of EKS and Rancher versions and is highly customizable depending on your requirements. You can customize subnets, network rules, VM types, number of nodes, autoscalling and logs for the cluster. Please see the description and comments on code for a better understanding.
+
+
 
 # Execution
 1. Run on terminal: terraform init ; sleep 3 ; terraform plan ; terraform apply
